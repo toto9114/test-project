@@ -1,0 +1,10 @@
+version: '2.2'
+services:
+  test-project:
+    image: test-project:latest
+    container_name: test-project
+    volumes:
+      - ./:/TestProject
+    command: python manage.py runserver 0.0.0.0:8000
+    ports:
+      - 8000:8000

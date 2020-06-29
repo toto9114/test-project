@@ -1,0 +1,2 @@
+DEFAULT_SUCCESS_MESSAGE = '요청에 성공했습니다.'
+DEFAULT_FAILED_MESSAGE = '요청에 실패했습니다.'

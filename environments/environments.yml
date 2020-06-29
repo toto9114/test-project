@@ -1,0 +1,7 @@
+name: "<db_name>"
+user: "<user>"
+password: "<user>"
+host: "<host>"
+port: "<port>"
+charset: "utf8mb4"
+use_unicode: true
